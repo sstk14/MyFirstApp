@@ -43,7 +43,7 @@ namespace MyFirstApp
         {
             try
             {
-                return System.Math.Round((double)b / a, digit);
+                return System.Math.Round((double)a / b, digit);
             }
             catch
             {

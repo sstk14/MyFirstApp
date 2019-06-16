@@ -15,7 +15,7 @@ namespace MyFirstApp
             Console.WriteLine("Hello World!");
             Console.WriteLine("");
 
-            Console.WriteLine("整数Aを入力してください");
+            Console.Write("整数Aを入力してください：");
             string strNumA = Console.ReadLine();
             if (int.TryParse(strNumA, out a) == false)
             {
@@ -26,7 +26,7 @@ namespace MyFirstApp
             }
 
 
-            Console.WriteLine("整数Bを入力してください");
+            Console.Write("整数Bを入力してください：");
             string strNumB = Console.ReadLine();
 
             if (int.TryParse(strNumB, out b) == false)
